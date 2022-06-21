@@ -13,7 +13,7 @@ c.train()
 for i in ['hi how are you','hey, what up','stop doing that.','it is annoying']:
     print(c.predict(i))
 ```
-Output
+Output (outputs should laregely vary when used in production, ML is probabilistic :) )
 ```
 0
 0
