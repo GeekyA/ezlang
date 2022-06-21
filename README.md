@@ -33,6 +33,11 @@ The output for this should be a pandas dataframe with two columns 'sentence' & '
 the number of clusters mentioned and the df will explain which sentence belongs to what cluster.
 
 Pending functionality:
+
 -Ability to save models.
+
 -Add prediction method for clustering model
+
 -Add semantic search functionality
+
+-Add train-test split for classification
