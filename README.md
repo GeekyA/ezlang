@@ -24,9 +24,9 @@ Output
 
 Clustering example
 ```
-from ezlang.cnc import Classify
+from ezlang.cnc import Cluster
 
-c = Classify(sentences = ['hi how are you','hey, what up','stop doing that.','it is annoying'],num_of_clusters = 2)
+c = Cluster(sentences = ['hi how are you','hey, what up','stop doing that.','it is annoying'],num_of_clusters = 2)
 c.get_results()
 ```
 The output for this should be a pandas dataframe with two columns 'sentence' & 'cluster' wherein the model would have successfully divided the data into
