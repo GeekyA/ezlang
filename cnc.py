@@ -94,7 +94,3 @@ class Classify(EncodeSents):
 
 
 
-c = Classify(['hi how are you','hey, what up','stop doing that.','it is annoying'],[0,0,2,1])
-c.train()
-for i in ['hi how are you','hey, what up','stop doing that.','it is annoying']:
-    print(c.predict(i))
